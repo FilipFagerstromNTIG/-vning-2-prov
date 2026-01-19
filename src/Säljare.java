@@ -1,5 +1,5 @@
 public class Säljare extends Anställd {
-    private int antalSåldaEnheter;
+    public int antalSåldaEnheter;
 
     public Säljare(String namn, int månadslön) {
         super(namn, månadslön);

@@ -12,10 +12,6 @@ public class Utvecklare extends Anställd {
         return programmeringsSpråk;
     }
 
-    public void setProgrammeringsSpråk() {
-        programmeringsSpråk = this.programmeringsSpråk;
-    }
-
     public void arbeta() {
         antalRaderKod += 300;
         System.out.println(namn + " skriver kod i " + programmeringsSpråk);
